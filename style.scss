@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $lightRed;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $lightRed;
   }
 }
 
@@ -152,6 +152,11 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: $darkGray;
+  background-image: url("/images/header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .masthead {
@@ -192,7 +197,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +207,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: whitesmoke;
   font-size: 16px;
 
   @include mobile {
@@ -225,7 +230,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;

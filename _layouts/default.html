@@ -5,6 +5,9 @@
 
     {% include meta.html %}
 
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,7 +20,7 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
+      <div class="container header-background">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -27,8 +30,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/">Projetos</a>
+            <a href="{{ site.baseurl }}/produtos">Produtos</a>
+            <a href="{{ site.baseurl }}/sobre">Sobre</a>
           </nav>
         </header>
       </div>
