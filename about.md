@@ -3,7 +3,7 @@ layout: page
 permalink: /sobre/
 ---
 
-![Wilson Jose Werlang](http://www.clker.com/cliparts/A/Y/O/m/o/N/placeholder-md.png)
+![Wilson Jose Werlang](/images/wilson.jpg){: .center-image }
 
 Wilson aprendeu o ofício da marcenaria ainda criança por meio dos ensinamentos de seu pai, o professor José Léo Werlang.
 
