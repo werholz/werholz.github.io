@@ -5,8 +5,11 @@ permalink: /sobre/
 
 ![Wilson Jose Werlang](http://www.clker.com/cliparts/A/Y/O/m/o/N/placeholder-md.png)
 
-Wilson aprendeu o ofício da marcenaria ainda criança por meio dos ensinamentos de seu pai, o professor José Lé Werlang. 
+Wilson aprendeu o ofício da marcenaria ainda criança por meio dos ensinamentos de seu pai, o professor José Léo Werlang.
 
+Aprendeu com ele a transformar madeira bruta em móveis, brinquedos, equipamentos e todo tipo de utensílios.
+
+Herdou tabém a inventividade para criar máquinas e ferramentas próprias quando os desafios à frente exigem soluções criativas.
 
 ### Contato
 
