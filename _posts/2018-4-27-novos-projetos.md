@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Novos Projetos
+category: project
 ---
 
 Em breve lançaremos uma série de posts mostrando projetos de restauração de móveis antigos e um pouco da história de cada um e das famílias que os preservam com muito carinho.
