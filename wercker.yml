@@ -3,7 +3,7 @@ build:
   steps:
     - script:
         name: Install Dependecies
-        code: gem install --no-document github-pages
+        code: bundle install
     - script:
         name: Generate Site
         code: JEKYLL_ENV=production bundle exec jekyll build --trace --destination $WERCKER_OUTPUT_DIR
