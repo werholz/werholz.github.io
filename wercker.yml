@@ -8,9 +8,10 @@ build:
         name: Generate Site
         code: JEKYLL_ENV=production bundle exec jekyll build --trace --destination $WERCKER_OUTPUT_DIR
 
-deploy :
-  steps :
+deploy:
+  steps:
     - s3sync:
-        key_id: $AWS_ACCESS_KEY_ID
-        key_secret: $AWS_SECRET_ACCESS_KEY
-        bucket_url: $AWS_BUCKET_URL
+        key-id: $S3_ACCESS_KEY_ID
+        key-secret: $S3_SECRET_KEY
+        bucket-url: $S3_BUCKET_URL
+        opts: --add-header=Cache-Control:max-age=3600
